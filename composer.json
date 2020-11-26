@@ -1,16 +1,16 @@
 {
-    "name": "laravel/breeze",
-    "description": "Minimal Laravel authentication scaffolding with Blade and Tailwind.",
-    "keywords": ["laravel", "auth"],
+    "name": "ngarawakimani/laravel_api_breeze",
+    "description": "Minimal Laravel authentication scaffolding with for APIs with support for passport.",
+    "keywords": ["laravel","laravel api breeze", "auth"],
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/laravel/breeze/issues",
-        "source": "https://github.com/laravel/breeze"
+        "issues": "https://github.com/ngarawakimani/laravel_api_breeze/issues",
+        "source": "https://github.com/ngarawakimani/laravel_api_breeze"
     },
     "authors": [
         {
-            "name": "Taylor Otwell",
-            "email": "taylor@laravel.com"
+            "name": "Dancan Kimani",
+            "email": "dancankimani70@gmail.com"
         }
     ],
     "require": {
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Laravel\\Breeze\\": "src/"
+            "Ngarawakimani\\LaravelAPIBreeze\\": "src/"
         }
     },
     "extra": {
@@ -29,7 +29,7 @@
         },
         "laravel": {
             "providers": [
-                "Laravel\\Breeze\\BreezeServiceProvider"
+                "Ngarawakimani\\LaravelAPIBreeze\\APIBreezeServiceProvider"
             ]
         }
     },
